@@ -106,7 +106,7 @@ const usersController = {
       .catch(err => res.json(err));
   },
 
-  // Delete a current Friend
+  // DELETE a current Friend by _id
   deleteFriend({ params }, res) {
       Users.findOneAndUpdate(
         {_id: params.id},
@@ -128,13 +128,6 @@ const usersController = {
       .catch(err => res.status(400).json(err));
   }
 
-
-  // DELETE to remove a user by _id
-  // bonus - remove associated thoughts when deleted
-
-  // PUT to add friend
-
-  // DELETE friend
 };
 
 // Export module users controller
