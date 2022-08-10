@@ -45,7 +45,7 @@ const usersController = {
   },
   // POST a new user
   // {
-  //   "username": "lernantino",
+  //   "userName": "lernantino",
   //   "email": "lernantino@gmail.com"
   // }
   createUsers({ body }, res) {
@@ -86,6 +86,9 @@ const usersController = {
 
   // PUT to add friend
   addFriend({ params }, res) {
+    console.log('add friend....');
+    console.log('userId: ', params.id);
+    console.log('friendId: ', params.friendId)
       Users.findOneAndUpdate(
         { _id: params.id },
         { $push: { friends: params.friendId } },
@@ -98,7 +101,7 @@ const usersController = {
       .select('-__v')
       .then(dbUsersData => {
           if (!dbUsersData) {
-              res.status(400).json({message: 'No User found with this ID!'});
+              res.status(500).json({message: 'No User found with this ID!'});
               return;
           }
       res.json(dbUsersData);
