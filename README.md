@@ -16,7 +16,22 @@
     <img src="https://img.shields.io/badge/mongoose-blue"  />
     <img src="https://img.shields.io/badge/mongodb-blue"  />
 </p>
-   
+
+<br>
+
+   ## Table of Contents
+- [Table of Contents](#table-of-contents)
+- [Description](#description)
+- [Video Links](#video-links)
+- [User Story](#user-story)
+- [Acceptance Criteria](#acceptance-criteria)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [Questions](#questions)
+
+<br>
+
 ## Description
 
 🔍 Deep Thoughts is an API for a social network web where users can add friends and share thoughts / reactions.
@@ -60,18 +75,6 @@ THEN I am able to successfully create and delete reactions to thoughts and add a
 ```
 <br>
    
-## Table of Contents
-- [Description](#description)
-- [Video Links](#video-links)
-- [User Story](#user-story)
-- [Acceptance Criteria](#acceptance-criteria)
-- [Table of Contents](#table-of-contents)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [Questions](#questions)
-
-<br>
 
 ## Installation
 💾   <br>
