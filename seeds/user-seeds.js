@@ -3,44 +3,44 @@ const { Users, Post } = require('../models');
 
 const userData = [
   {
-    userName: 'alesmonde0',
-    email: 'nwestnedge0@cbc.ca',
+    userName: 'Joe',
+    email: 'joe@gmail.ca',
   },
   {
-    userName: 'jwilloughway1',
-    email: 'rmebes1@sogou.com',
+    userName: 'Bob',
+    email: 'bob@gmail.com',
   },
   {
-    userName: 'iboddam2',
-    email: 'cstoneman2@last.fm',
+    userName: 'fred',
+    email: 'fred@gmail.com',
   },
   {
-    userName: 'dstanmer3',
-    email: 'ihellier3@goo.ne.jp',
+    userName: 'tom',
+    email: 'tom@goo.ne.jp',
   },
   {
-    userName: 'djiri4',
-    email: 'gmidgley4@weather.com',
+    userName: 'dick',
+    email: 'dick@weather.com',
   },
   {
-    userName: 'msprague5',
-    email: 'larnout5@imdb.com',
+    userName: 'harry',
+    email: 'harry@gmail.com',
   },
   {
-    userName: 'mpergens6',
-    email: 'hnapleton6@feedburner.com',
+    userName: 'sue',
+    email: 'sue@yahoo.com',
   },
   {
-    userName: 'tpenniell7',
-    email: 'kperigo7@china.com.cn',
+    userName: 'anna',
+    email: 'anna@yahoo.com',
   },
   {
-    userName: 'msabbins8',
-    email: 'lmongain8@google.ru',
+    userName: 'charli',
+    email: 'charli@google.com',
   },
   {
-    userName: 'jmacarthur9',
-    email: 'bsteen9@epa.gov',
+    userName: 'liesl',
+    email: 'liesl@google.com',
   }
 ];
 

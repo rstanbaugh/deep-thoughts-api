@@ -134,7 +134,7 @@ const thoughtsController = {
           }
           res.json(dbThoughtsData);
       })
-      .catch(err => res.status(400).json(err));
+      .catch(err => res.status(500).json(err));
   }
 };
 

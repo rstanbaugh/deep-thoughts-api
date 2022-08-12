@@ -22,7 +22,11 @@
 🔍 Deep Thoughts is an API for a social network web where users can add friends and share thoughts / reactions.
 
 **[Deployed Deep Thoughts API](https://deep-thoughts-api.herokuapp.com/api/users/)**
-  
+
+## Video Links
+  [Part 1](https://watch.screencastify.com/v/MPmvrKKQPbDPOM5dYLq5)<br>
+  [Part 2](https://watch.screencastify.com/v/2N6yeuX2XmL72iNO7TlS)<br>
+
 💻 <br>
 Deep Thoughts API Screenshots:
   
@@ -58,6 +62,7 @@ THEN I am able to successfully create and delete reactions to thoughts and add a
    
 ## Table of Contents
 - [Description](#description)
+- [Video Links](#video-links)
 - [User Story](#user-story)
 - [Acceptance Criteria](#acceptance-criteria)
 - [Table of Contents](#table-of-contents)
